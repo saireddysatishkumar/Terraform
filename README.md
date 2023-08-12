@@ -18,9 +18,9 @@ terraform init
 terraform apply 
 
 ## Create vpc
-cd aws/vpc
-terraform  init -reconfigure -backend-config=backend-prod.tfvars
-terraform apply -var-file="apple-prod.tfvars" -lock=false
+cd aws/vpc  
+terraform  init -reconfigure -backend-config=backend-prod.tfvars  
+terraform apply -var-file="apple-prod.tfvars" -lock=false  
 
 ## AWS Projects:
 >Project1: Run an demo application using ECS Cluster.  
