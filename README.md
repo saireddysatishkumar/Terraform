@@ -14,7 +14,7 @@ Default region name [None]:
 Default output format [None]:   
 
 ## Create S3 bucket and dynamoDB for Terraform statfile.
-terraform init 
+terraform init   
 terraform apply 
 
 ## Create vpc
