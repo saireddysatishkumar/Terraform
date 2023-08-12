@@ -9,9 +9,9 @@ aws --version
 ## Configure aws cli
 aws configure
 AWS Access Key ID [None]:                     
-AWS Secret Access Key [None]: 
-Default region name [None]: 
-Default output format [None]: 
+AWS Secret Access Key [None]:   
+Default region name [None]:   
+Default output format [None]:   
 
 ## Create S3 bucket and dynamoDB for Terraform statfile.
 terraform init 
