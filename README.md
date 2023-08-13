@@ -7,7 +7,7 @@ aws --version
 ## Create a user and access keys from AWS IAM console, for terraform.
 
 ## Configure aws cli
-aws configure
+aws configure  
 AWS Access Key ID [None]:                     
 AWS Secret Access Key [None]:   
 Default region name [None]:   
