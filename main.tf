@@ -4,12 +4,13 @@ resource "aws_s3_bucket" "apple-tfstate" {
 
 resource "aws_dynamodb_table" "terraform-locks" {
  name = "terraform-locks"
- read_capacity= "30"
- write_capacity= "30"
- attribute {
-  name = "noteId"
-  type = "S"
- }
- hash_key = "noteId"
+  hash_key = "LockID"
+  read_capacity = 20
+  write_capacity = 20
+ 
+  attribute {
+    name = "LockID"
+    type = "S"
+  }
 }
 
