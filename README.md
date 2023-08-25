@@ -1,26 +1,7 @@
-## Pre-requisites for AWS projects
-> Install aws cli.  
-curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"  
-sudo installer -pkg AWSCLIV2.pkg -target /  
-aws --version  
 
-## Create a user and access keys from AWS IAM console, for terraform.
+Managing infrastructure through code! Dive into Terraform code snippets for provisioning and configuring resources across cloud platforms.   
 
-## Configure aws cli
-aws configure  
-AWS Access Key ID [None]:                     
-AWS Secret Access Key [None]:   
-Default region name [None]:   
-Default output format [None]:   
-
-## Create S3 bucket and dynamoDB for Terraform statfile.
-terraform init   
-terraform apply 
-
-## Create vpc
-cd aws/vpc  
-terraform  init -reconfigure -backend-config=backend-prod.tfvars  
-terraform apply -var-file="apple-prod.tfvars" -lock=false  
+ ## Follow insstructions in aws/README.md for aws projects
 
 ## AWS Projects: (in progress)
 >Project1: Run an demo application using ECS Cluster.  
@@ -43,7 +24,7 @@ Validation
 ````
 >Project2:
 ````
-
+https://medium.com/geekculture/terraform-setup-for-automatically-turning-off-ec2-instances-upon-inactivity-d7f414390800
 ````
 >Project3:
 ````

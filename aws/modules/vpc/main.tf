@@ -73,7 +73,7 @@ resource "aws_route_table" "private-rt" {
 /* EIP allocation */
 resource "aws_eip" "eip" {
   count = length(var.private_subnet_cidr_block)
-  vpc = true
+  /*vpc = true*/
   tags = {
   Name = format("${var.company}.${var.az}.${var.env}.%s.eip",element(var.app, count.index))
 }
