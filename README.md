@@ -1,11 +1,14 @@
 
 Managing infrastructure through code! Dive into Terraform code snippets for provisioning and configuring resources across cloud platforms.   
 
- ## Follow insstructions in aws/README.md for aws projects
+## Terraform cloud:
+
+
+## Follow insstructions in aws/README.md for aws projects
 
 ## AWS Projects: (in progress)
->Project1: Run an demo application using ECS Cluster.  
-Resources: ECR, ECS(FARGATE), ALB.
+>Project1: Terraform.  
+
 ````
 Step1:  
 Create ECR.(terraform)  
